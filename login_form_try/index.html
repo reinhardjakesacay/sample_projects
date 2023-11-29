@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <h1>Login</h1>
+        <form action="">
+        <div class="input-username">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username">
+        </div>
+        <div class="input-password">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password">
+        </div>
+        <div class="register-forgot">
+            <input type="checkbox" id="rememberme">
+            <label for="rememberme">Remember me</label>
+            <a href="#">Forget password</a>
+        </div>
+        <button type="submit" value="submit" class="submit">Login</button>
+        <div class="new-account">
+            <label for="newAccount">Create new account <a href="#">New Account</a></label>
+        </div>
+        </form>
+    </div>
 </body>
 </html>
