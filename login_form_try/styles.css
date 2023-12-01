@@ -62,3 +62,15 @@ body {
     border: none;
     outline: none;
 }
+.wrapper .new-account {
+    text-align: center;
+}
+.wrapper .new-account label a{
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+}
+.wrapper .new-account label a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
