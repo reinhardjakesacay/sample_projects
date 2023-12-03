@@ -5,17 +5,26 @@
 }
 body {
     background-color: silver;
+    display: grid;
+    height: 100vh;
 }
-.wrapper{
-    position: absolute;
-    width: fit-content;
+.header {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.header h1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 800;
+}
+body .wrapper {
     height: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    place-items: center;
     border: 1px solid black;
     border-radius: 15px;
-    width: fit-content;
-    padding: 20px;
-    top: 50%;
-    left: 40%;
-    right: 50%;
-    margin: -50px 0 0 -50px;
 }
