@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+body {
+    background-color: silver;
+}
+.wrapper{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 20px;
+    top: 50%;
+    left: 40%;
+    right: 50%;
+    margin: -50px 0 0 -50px;
+}
