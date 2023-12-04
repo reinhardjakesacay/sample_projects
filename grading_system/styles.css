@@ -68,3 +68,23 @@ table tr td input{
     border: none;
     background: rgba(24, 16, 16, 0.086);
 }
+table tr td a{
+    text-decoration: none;
+    color: black;
+}
+button {
+    margin: 15px 30% 0;
+
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: #ffffff;
+}
