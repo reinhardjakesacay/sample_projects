@@ -60,3 +60,11 @@ tr:hover {
 table tr td {
     text-align: center;
 }
+table tr td input{
+    padding: 3px;
+    border-radius: 5px;
+    width: 200px;
+    height: 23px;
+    border: none;
+    background: rgba(24, 16, 16, 0.086);
+}
